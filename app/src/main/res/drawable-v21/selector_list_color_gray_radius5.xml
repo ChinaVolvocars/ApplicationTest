@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/list_gray_pressed"
+    android:radius="@dimen/height_y_5">
+    <item android:drawable="@drawable/list_normal_radius5"/>
+
+</ripple>

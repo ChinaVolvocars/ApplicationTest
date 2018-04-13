@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- **************** 常用颜色 **************** -->
+    <!--白色-->
+    <color name="color_white">#FFFFFFFF</color>
+    <!--黑色-->
+    <color name="color_black">#FF000000</color>
+    <!--透明-->
+    <color name="color_transparent">#00000000</color>
+    <!--APP主色调-->
+    <color name="app_main">#FF1FCC7B</color>
+    <!--APP主要背景色-->
+    <color name="main_bg">#FFF4F4F4</color>
+    <!--APP中分割线的颜色-->
+    <color name="line_bg">#FFDDDDDD</color>
+
+    <!-- **************** 文字颜色 **************** -->
+    <!--主要文字颜色1-->
+    <color name="main_text1">#FF111111</color>
+    <!--主要文字颜色2-->
+    <color name="main_text2">#FFBBBBBB</color>
+
+    <!-- **************** 选择器颜色 **************** -->
+    <!--主要按钮颜色-->
+    <color name="bt_main_pressed">#FF3FDC7B</color>
+    <color name="bt_main_normal">#FF1FCC7B</color>
+    <color name="bt_main_disable">#871FCC7B</color>
+
+    <!--次要(第二)按钮颜色-->
+    <color name="bt_second_pressed">#FFCCCCCC</color>
+    <color name="bt_second_normal">#FFEEEEEE</color>
+    <color name="bt_second_disable">#87EEEEEE</color>
+
+    <!--Dialog按钮颜色-->
+    <color name="bt_dialog_pressed">#FFCCCCCC</color>
+    <color name="bt_dialog_normal">#FFFFFFFF</color>
+    <color name="bt_dialog_disable">#87EEEEEE</color>
+
+    <!--红色边框、默认无填充按钮颜色-->
+    <color name="bt_red_pressed">#35CCCCCC</color>
+    <color name="bt_red_normal">#00000000</color>
+    <color name="bt_red_disable">#87FFFFFF</color>
+    <color name="bt_red_border">#FFFF4E24</color>
+
+    <!--背景透明EditText是否有焦点颜色选择器-->
+    <color name="et_main_focused">#FF1FCC7B</color>
+    <color name="et_main_normal">#FFEEEEEE</color>
+
+    <!--制定填充色EditText是否有焦点颜色选择器-->
+    <color name="et_fill_bg">#FFF4F4F4</color>
+    <color name="et_fill_focused">#FF1FCC7B</color>
+
+    <!--点击时控件颜色选择器 背景白色点击灰色-->
+    <color name="list_gray_pressed">#FFCCCCCC</color>
+    <color name="list_gray_normal">#FFFFFFFF</color>
+
+
+    <!--加载更多 ProgressBar 颜色-->
+    <color name="progress_bar_start_color">#FF1FCC7B</color>
+    <color name="progress_bar_center_color">#881FCC7B</color>
+    <color name="progress_bar_end_color">#301FCC7B</color>
+
+    <!-- **************** ActionBar 中使用的颜色 **************** -->
+    <!--标题栏返回文字颜色-->
+    <color name="title_bar_back_color">#FF333333</color>
+    <!--标题栏标题文字颜色-->
+    <color name="title_bar_title_color">#FF333333</color>
+    <!--标题栏右边显示文字颜色-->
+    <color name="title_bar_right_color">#FF333333</color>
+</resources>

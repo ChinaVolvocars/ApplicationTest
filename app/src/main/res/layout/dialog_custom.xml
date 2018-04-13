@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rectangle_white_radius5"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title_dialog"
+        android:layout_width="@dimen/height_y_280"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/height_y_20"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="@color/main_text1"
+        android:textSize="@dimen/txt_size_15" />
+
+    <TextView
+        android:id="@+id/tv_dialog_content"
+        android:layout_width="@dimen/height_y_280"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/height_y_12"
+        android:layout_marginTop="@dimen/height_y_12"
+        android:gravity="center"
+        android:paddingLeft="@dimen/height_y_15"
+        android:paddingRight="@dimen/height_y_15"
+        android:text=""
+        android:textColor="@color/main_text1"
+        android:textSize="@dimen/txt_size_12" />
+
+    <include layout="@layout/view_horizontal_line" />
+
+    <LinearLayout
+        android:layout_width="@dimen/height_y_280"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_dialog_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bt_radius5_p4"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_y_12"
+            android:paddingTop="@dimen/height_y_12"
+            android:text=""
+            android:textColor="@color/main_text2"
+            android:textSize="@dimen/txt_size_13" />
+
+        <View
+            android:layout_width="@dimen/height_y_1"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/height_y_8"
+            android:layout_marginTop="@dimen/height_y_8"
+            android:background="@color/line_bg" />
+
+        <TextView
+            android:id="@+id/tv_dialog_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bt_radius5_p3"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_y_12"
+            android:paddingTop="@dimen/height_y_12"
+            android:text=""
+            android:textColor="@color/main_text1"
+            android:textSize="@dimen/txt_size_13" />
+
+    </LinearLayout>
+
+</LinearLayout>

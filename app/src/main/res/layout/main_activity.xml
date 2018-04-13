@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.renj.applicationtest.weight.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiStateView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:msv_emptyView="@layout/state_view_empty_data"
+    app:msv_errorView="@layout/state_view_error"
+    app:msv_loadingView="@layout/state_view_loading"
+    app:msv_networkView="@layout/state_view_network_error"
+    app:msv_viewState="loading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.renj.applicationtest.weight.CircleImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/height_y_60"
+            android:layout_height="@dimen/height_y_60" />
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</com.renj.applicationtest.weight.MultiStateView>
